@@ -43,7 +43,7 @@
   width: 730px;
   font-size: 102px;
   line-height: 96px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -119,7 +119,7 @@
 }
 
 .two-columns__span-accent {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .digits {
@@ -132,7 +132,7 @@
   text-align: center;
   font-size: 60px;
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: bold;
 
 }
 
@@ -182,7 +182,7 @@
   margin: 0;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .table__text {
@@ -209,7 +209,7 @@
   text-align: center;
   font-size: 120px;
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .feynman__subtitle {
