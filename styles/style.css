@@ -17,6 +17,22 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  height: 35px;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -29,18 +45,12 @@
   background-color: var(--grey-light);
 }
 
-.header__logo {
-  z-index: 2;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
 .header__title {
   z-index: 2;
   margin: 0;
   margin-left: 64px;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -68,6 +78,10 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 765px;
+  height: 608px;
+  object-fit: cover;
+  object-position: right bottom;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -111,6 +125,7 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -137,6 +152,8 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
+  z-index: 2;
   color: var(--basic-white);
 }
 
@@ -150,6 +167,7 @@
 }
 
 .section-subtitle_theme_dark {
+  z-index: 2;
   color: var(--basic-white);
 }
 
@@ -245,12 +263,12 @@
   top: 0;
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
 }
 
 .footer {
   background-color: var(--grey-dark);
   color: var(--basic-white);
-  min-height: 350px;
 }
 
 .footer__columns {
@@ -260,6 +278,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   width: 90%;
+  min-height: 250px;
 }
 
 .footer__column_content_copyright {
@@ -299,6 +318,6 @@
   color: var(--basic-white);
 }
 
-.footer__column-link img {
+.footer__social-icon {
   margin-right: 10px;
 }
