@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -8,7 +9,7 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/_title/header__title.css);
+@import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/feynman/feynman.css);
@@ -45,7 +46,6 @@
 @import url(../blocks/link-opasity/link-opasity.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
@@ -69,4 +69,5 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__subtitle/resources__subtitle.css);
+@import url(../blocks/resources/__img/resources__img.css);
 
